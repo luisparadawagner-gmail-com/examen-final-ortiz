@@ -1,0 +1,54 @@
+<form [formGroup]="noticiaForm" (ngSubmit)="submit()">
+  <div class="">
+    <mat-card class="container">
+      <mat-card-title>Cargar Noticia</mat-card-title>
+      <div class="container">
+        <mat-form-field class="example-full-width">
+          <mat-label>Titulo: </mat-label>
+          <input
+            type="text"
+            formControlName="titulo"
+            matInput
+            placeholder="Titulo"
+          />
+        </mat-form-field>
+      </div>
+      <div class="container">
+        <mat-form-field class="example-full-width">
+          <mat-label>Texto: </mat-label>
+          <input
+            type="text"
+            formControlName="texto"
+            matInput
+            placeholder="Texto"
+          />
+        </mat-form-field>
+      </div>
+      <div class="container">
+        <mat-form-field class="example-full-width">
+          <mat-label>Fecha de Publicacion: </mat-label>
+          <input
+            type="text"
+            formControlName="fechaDePublicacion"
+            matInput
+            placeholder="Fecha de Publicacion"
+          />
+        </mat-form-field>
+      </div>
+      <div class="container">
+        <mat-form-field class="example-full-width">
+          <mat-label>Estado: </mat-label>
+          <mat-select matNativeControl required formControlName="estado">
+            <mat-option value="Publicada">Publicada</mat-option>
+            <mat-option value="No Publicada">No Publicada</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <mat-card-actions>
+        <div>
+          <button mat-raised-button color="primary">Guardar</button>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</form>

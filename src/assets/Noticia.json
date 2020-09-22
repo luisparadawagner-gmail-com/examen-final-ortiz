@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Corralito",
+    "texto": "Se viene el corralito del Gobierno",
+    "fechaDePublicacion": "22/09/2020",
+    "estado": "No Publicada"
+  },
+  {
+    "titulo": "Suba del dolar",
+    "texto": "Las tarifas del dolar van a subir",
+    "fechaDePublicacion": "23/09/2020",
+    "estado": "No Publicada"
+  },
+  {
+    "titulo": "Gano San Lorenzo",
+    "texto": "Al fin gano San Lorenzo",
+    "fechaDePublicacion": "24/09/2020",
+    "estado": "No Publicada"
+  },
+  {
+    "titulo": "Boca Por su 16 Libertadores",
+    "texto": "Boca no para de ganar copas y va por la 16",
+    "fechaDePublicacion": "25/09/2020",
+    "estado": "No Publicada"
+  }
+]
